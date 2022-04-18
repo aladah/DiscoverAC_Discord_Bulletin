@@ -1,0 +1,110 @@
+@charset "ISO-8859-1";
+
+body{
+	/*font-family:Bahnschrift;*/
+	font-family: 'Corben', Georgia, Times, serif;
+}
+/*style for header*/
+.header{
+	background-color:#3A86FF;
+	margin:auto; 
+	text-align:center;
+	color: #ffbe0b;
+}
+.footer{
+	background-color: #3a86ff;
+  	padding: 20px;
+  	text-align: center;
+  	color:#FFBE0B;
+}
+.main{
+	background-image: linear-gradient(to bottom right, #ff8243, #FFBE0B);
+	font-family:Bahnschrift;
+  	padding: 20px;
+  	text-align: center;
+  	color:solid white;
+  	border-radius: 15px;
+  	border-style: solid;
+  	border-color: #8338EC;
+  	margin:auto;
+  	/*margin-top: 30px;
+  	margin-bottom: 30px;
+  	margin-right: 50px;
+  	margin-left: 50px;*/	
+  	width:450px
+}
+.main_title{
+	margin:auto; 
+	text-align:center;
+	color: #8338EC;
+	font-family: 'Corben', Georgia, Times, serif;	
+}
+
+.button{
+   background-color: #3A86FF;
+  border:solid;
+  border-color:#8338EC;
+  color:#FFBE0B;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  text-align:center;
+  border-radius: 5px;
+  font-family: 'Corben', Georgia, Times, serif;
+}
+
+.button:hover{
+  background-image: linear-gradient(to bottom right, #FFBE0B, #ff8243);
+  border:solid;
+  border-color:#8338EC;
+  color:#8338EC;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  text-align:center;
+  border-radius: 5px;
+}
+
+input[type=text]{
+  font-family: 'Nobile', Helvetica, Arial, sans-serif;
+  border: solid;
+  border-color:#3A86FF;
+  padding: 16px 32px;
+  margin: 2px 2px;
+  border-radius: 15px;
+  
+}
+
+#content{
+	color:#8338EC;
+	font-family: 'Corben', Georgia, Times, serif;
+}
+#bulletins{
+	height:100px; 
+	
+	/*background-color:#FFBE0B; */
+	color: #ffffff;
+	border-bottom: 20px solid white;
+	font-family: 'Nobile', Helvetica, Arial, sans-serif;
+	background-image: linear-gradient(to bottom right, #8338EC, #ff8243);
+}
+
+
+th{
+	color:#8338EC;
+}
+.titles{
+	color:#ff8243;
+	text-align:center; 
+	font-size: 30px;
+  	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px #3A86FF;
+}
+.profile_text{
+	margin: auto; 
+	color:#ff8243;
+	text-align: center;
+	
+	
+}
